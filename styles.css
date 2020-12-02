@@ -29,6 +29,9 @@ body {
   font-family: var(--font-type-primary);
   font-size: 18px;
   overflow-x: hidden;
+  position: relative;
+  max-width: 2500px;
+  margin: 0 auto;
 }
 
 .container {
@@ -99,11 +102,8 @@ img {
   background-image: url('./images/bg-intro-desktop.svg');
   background-repeat: no-repeat;
   background-size: 70em 70em;
-  /* background-attachment: fixed; */
-  background-position: 55em;
-  /* height: 50em; */
-
-  /* position: relative; */
+  /* background-position: 55em; */
+  background-position: 50vw;
 }
 
 .inner-container {
